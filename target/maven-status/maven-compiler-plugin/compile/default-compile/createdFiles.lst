@@ -1,0 +1,6 @@
+etisalat\backend\usermanager\model\User.class
+etisalat\backend\usermanager\repository\UserRepository.class
+etisalat\backend\usermanager\controller\UserController.class
+etisalat\backend\usermanager\service\UserService.class
+etisalat\backend\usermanager\UserManagerApplication.class
+etisalat\backend\usermanager\service\UserServiceImpl.class

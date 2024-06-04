@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: etisalat.backend.usermanager.UsermanagerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.757 s - in etisalat.backend.usermanager.UsermanagerApplicationTests
