@@ -32,16 +32,11 @@ jobs:
       - name: Run tests
         run: mvn test
 
-      - name: Log Docker Hub Username
-        run: |
-          printf "Docker Hub Username: %s\n" "${{ secrets.DOCKERHUB_USERNAME }}"
-          printf "Docker Hub token: %s\n" "${{ secrets.DOCKERHUB_TOKEN }}"
-
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ahmsalah
+          password: dckr_pat_iMuo4loK2QJYRBSEL8N8dAn5JJM
 
 
       - name: Build Docker image
