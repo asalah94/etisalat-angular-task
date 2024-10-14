@@ -41,7 +41,7 @@ jobs:
       - name: Log Docker Hub Username
         run: |
           printf "Docker Hub Username: %s\n" "${{ secrets.DOCKERHUB_USERNAME }}"
-          printf "Docker Hub Access token: %s\n" "${{ secrets.DOCKERHUB_TOKEN }}"
+          printf "Docker Hub token: %s\n" "${{ secrets.DOCKERHUB_TOKEN }}"
 
       - name: Build Docker image
         run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/usermanager-app:latest .
